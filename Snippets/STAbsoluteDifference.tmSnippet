@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>STAbsoluteDifference(${1:@"value1"}, ${2:@"value2"}, ${3}nil});</string>
+	<key>name</key>
+	<string>STAbsoluteDifference</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>st</string>
+	<key>uuid</key>
+	<string>F3373CD8-4341-46FD-A573-13BD698AE9E7</string>
+</dict>
+</plist>

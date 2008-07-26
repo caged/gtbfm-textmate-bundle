@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>STAssertTrueNoThrow(${1:val}, ${2:nil});</string>
+	<key>name</key>
+	<string>STAssertTrueNoThrow</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>st</string>
+	<key>uuid</key>
+	<string>5916055B-4A0A-4BD6-8EED-544E9F806F86</string>
+</dict>
+</plist>

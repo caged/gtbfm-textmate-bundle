@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>STAssertThrowsSpecificNamed(${1:expression}, ${2:specific exception}, ${3:exception name}, ${4:nil});</string>
+	<key>name</key>
+	<string>STAssertThrowsSpecificNamed</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>st</string>
+	<key>uuid</key>
+	<string>EDAFECBC-80F7-4E25-B9E7-82BB76610030</string>
+</dict>
+</plist>

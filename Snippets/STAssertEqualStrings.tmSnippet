@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>STAssertEqualStrings(${1:@"val1"}, ${2:@"val2"}, ${3:nil});</string>
+	<key>name</key>
+	<string>STAssertEqualStrings</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>st</string>
+	<key>uuid</key>
+	<string>A53DAFCE-C054-4BF9-BA2C-A7D3A559E92C</string>
+</dict>
+</plist>
