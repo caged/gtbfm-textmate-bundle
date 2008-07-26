@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>STAssertEqualObjects(${1:@"val1"}, ${2:@"val2"}, ${3:nil});</string>
+	<string>STAssertEquals(${1:@"val1"}, ${2:@"val2"}, ${3:nil});</string>
 	<key>name</key>
 	<string>STAssertEquals</string>
 	<key>scope</key>
