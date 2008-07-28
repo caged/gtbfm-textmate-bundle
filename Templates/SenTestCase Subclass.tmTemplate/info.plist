@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string>export TM_YEAR=`date +%Y`
+export TM_DATE=`date +%Y-%m-%d`
+export TESTING_FILE=`ruby -e 'puts ENV["TM_NEW_FILE_BASENAME"].sub(/Test$/, "")'`
+
+if [[ ! (-f $TM_NEW_FILE ) ]]; then
+   perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' &lt;class_in.m &gt;"$TM_NEW_FILE"
+fi</string>
+	<key>extension</key>
+	<string>m</string>
+	<key>name</key>
+	<string>SenTestCase Subclass</string>
+	<key>uuid</key>
+	<string>004BBFFA-41FD-4AA7-B501-FD440A613EF3</string>
+</dict>
+</plist>

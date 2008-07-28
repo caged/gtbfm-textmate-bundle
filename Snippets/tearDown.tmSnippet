@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>- (void) tearDown
+{
+	$1
+}</string>
+	<key>name</key>
+	<string>tearDown</string>
+	<key>scope</key>
+	<string>(source.objc | source.objc++) &amp; meta.scope.implementation.objc - meta.function-with-body</string>
+	<key>tabTrigger</key>
+	<string>teardown</string>
+	<key>uuid</key>
+	<string>E645327A-B669-40B6-9275-5B801CDEAF2E</string>
+</dict>
+</plist>
