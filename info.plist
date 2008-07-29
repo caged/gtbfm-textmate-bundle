@@ -6,9 +6,6 @@
 	<dict>
 		<key>items</key>
 		<array>
-			<string>4B471413-75E6-4EE5-82A3-1695702B3D49</string>
-			<string>25E92F2B-CD5C-4A58-81E5-B19787CF0728</string>
-			<string>E645327A-B669-40B6-9275-5B801CDEAF2E</string>
 			<string>834BD0FD-BC49-42A8-8762-7D88364ADF96</string>
 		</array>
 		<key>submenus</key>
@@ -17,6 +14,9 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>4B471413-75E6-4EE5-82A3-1695702B3D49</string>
+					<string>25E92F2B-CD5C-4A58-81E5-B19787CF0728</string>
+					<string>E645327A-B669-40B6-9275-5B801CDEAF2E</string>
 					<string>B86AD4CC-041E-4A9B-8729-F134565AFE39</string>
 					<string>CC7CD69E-866A-4476-8B4C-3DBB489716FB</string>
 					<string>A235B45D-1CCC-483A-B5AD-C886B52F0F1B</string>
@@ -56,7 +56,7 @@
 		</dict>
 	</dict>
 	<key>name</key>
-	<string>iPhone Unit Testing</string>
+	<string>Google Toolbox for Mac</string>
 	<key>ordering</key>
 	<array>
 		<string>4B471413-75E6-4EE5-82A3-1695702B3D49</string>

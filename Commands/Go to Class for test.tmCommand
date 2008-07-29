@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require "#{ENV['TM_SUPPORT_PATH']}/lib/textmate"
+if ENV['TM_FILENAME'] =~ /Test\.(m|h)$/
+  implementation_file = ENV['TM_FILENAME'].sub(/Test\.(m|h)$/, '')
+
+  TextMate.each_text_file do |file|
+    if File.basename(file) =~ /#{implementation_file}\.m$/
+    TextMate.go_to(:file =&gt; file)
+  end
+end
+
+end
+
+
+#puts TextMate.go_to(:file =&gt; "#{ENV['TM_DIRECTORY']}/Classes/Models/Action.m")
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^$@</string>
+	<key>name</key>
+	<string>Go to class for test</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>uuid</key>
+	<string>D00093FE-DF0E-4DB9-B7E5-C288B638FACD</string>
+</dict>
+</plist>
