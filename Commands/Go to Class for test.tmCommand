@@ -24,7 +24,7 @@ end
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^$@</string>
+	<string>$@</string>
 	<key>name</key>
 	<string>Go to class for test</string>
 	<key>output</key>

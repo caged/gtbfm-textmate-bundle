@@ -9,13 +9,12 @@
 require "#{ENV['TM_SUPPORT_PATH']}/lib/textmate"
 if ENV['TM_FILENAME'] != ''
   TextMate.each_text_file do |file|
-    puts file
     filename = ENV['TM_FILENAME'].sub(/\.(m|h)$/, '')
     filepath = file.sub(/\.(m|h)$/, '')
-    puts filepath
     
-    if "#{filename}Test" =~ /^#{filename}/
-      TextMate.go_to(:file =&gt; "#{filepath}Test.m")
+    if "#{filename}Test" =~ /#{File.basename(filepath)}$/
+      TextMate.go_to(:file =&gt; "#{filepath}.m")
+      break
     end
   end
 end
@@ -25,11 +24,11 @@ end
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>^$@</string>
+	<string>$@</string>
 	<key>name</key>
 	<string>Go to test for class</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>discard</string>
 	<key>scope</key>
 	<string>source.objc, source.objc++</string>
 	<key>uuid</key>
