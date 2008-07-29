@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>STAssertNotEqualStrings(${1:@"val1"}, ${2:@"val2"}, ${3:nil});</string>
+	<string>STAssertNotEqualStrings(${1:@"${2:val1}"}, ${3:@"${4:val}"}, ${5:nil});</string>
 	<key>name</key>
 	<string>STAssertNotEqualStrings</string>
 	<key>scope</key>
